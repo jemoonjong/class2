@@ -1,0 +1,3 @@
+$.index.open();
+
+Ti.create

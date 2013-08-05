@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="container" title="리스트">
+		<RightNavButton platform="ios">
+			<Button onClick="onWriteOpen">글쓰기</Button>
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="글쓰기" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" onClick="onWriteOpen"></MenuItem>
+		</Menu>
+		<ListView id="listView">
+			<Templates>
+				<ItemTemplate id="postTemplate" name="postTemplate">
+					<ImageView class="pic"></ImageView>
+					<Label class="userName" bindId="userNameLabel">User Name</Label>
+					<Label class="content" bindId="contentLabel">Post Content</Label>
+					<Label class="date" bindId="dateLabel">0000.00.00</Label>
+				</ItemTemplate>
+				<ItemTemplate id="postTemplate2" name="postTemplate2">
+					<ImageView class="pic"></ImageView>
+					<Label class="content" bindId="contentLabel">Post Content</Label>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="postSection">
+				<ListItem template="postTemplate"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

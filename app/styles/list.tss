@@ -1,0 +1,38 @@
+
+".container" : {
+  
+},
+
+".pic": {
+	backgroundColor: "red"
+},
+
+".userName": {
+	top: 10,
+	left: 60,
+	font: {
+		fontSize: 13
+	}
+},
+
+".content": {
+	top: 25,
+	left: 60,
+	right: 10,
+	height: 25,
+	font: {
+		fontSize: 15
+	}
+},
+
+".date": {
+	top: 10,
+	right: 10,
+	font: {
+		fontSize: 12
+	}
+},
+
+"#postTemplate": {
+	height: 60
+}

@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<LeftNavButton platform="ios">
+			<Button onClick="onClose">닫기</Button>
+		</LeftNavButton>
+		<RightNavButton platform="ios">
+			<Button onClick="onSave">저장</Button>
+		</RightNavButton>
+		<Menu platform="android">
+			<MenuItem title="저장" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" onClick="onSave"></MenuItem>
+		</Menu>
+		<TextArea id="content" class="content"></TextArea>
+	</Window>
+</Alloy>

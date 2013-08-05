@@ -1,0 +1,24 @@
+
+".container" : {
+	layout: 'vertical'  
+},
+
+"#name": {
+	left: 10,
+	text: 'name',
+	font: {
+		fontSize: 20
+	}
+},
+
+"#date": {
+	left: 100,
+	text: 'date'
+},
+
+"#content": {
+	left: 10,
+	right: 10,
+	height: 150
+}
+

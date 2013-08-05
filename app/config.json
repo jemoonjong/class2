@@ -3,7 +3,11 @@
 	"env:development": {}, 
 	"env:test": {}, 
 	"env:production": {}, 
-	"os:ios": {}, 
-	"os:android": {}, 
-	"dependencies": {}
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {
+		"com.appcelerator.acslogin" : 1.0
+	}
 }

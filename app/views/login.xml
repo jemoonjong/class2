@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Require id="loginWidget" src="com.appcelerator.acslogin" type="widget"></Require>
+		<Button id="fbBtn">Facebook</Button>
+	</Window>
+</Alloy>
